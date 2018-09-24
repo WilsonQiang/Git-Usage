@@ -2,7 +2,7 @@
 
 ## 新建repo
 1. 登陆github，选择New repository，勾选readme.md
-2. 使用`git clone`命令将仓库克隆到本地
+2. 使用`git clone`命令将仓库克隆到本地，使用`cd`命令进入仓库，使用`ls -a`查看，发现本地已经新建`.git`文件
 3. 通过`git checkout master`选择master分支进行修改（若要修改gh-pages分支则使用`git checkout gh-pages`命令切换到gh-pages分支进行修改）
 4. 修改完后添加需要提交的部分，如果仓库不是很大，可以使用`git add .`命令提交所有
 5. 使用`git commit -m '提交说明'`命令添加本次提交的注释
